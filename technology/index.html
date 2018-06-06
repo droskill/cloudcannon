@@ -10,82 +10,82 @@ layout: default
       <div class="col-xs-12">
         <div class="content-wrapper">
           <div class="technology-item post--extra-content">
-            <h3>ACADEMIC LITERATURE RELATING TO GAMALON PLATFORM</h3>
-            <p>We have noticed the emergence of several core architectural principles or axioms that seem necessary for machine learning systems to progress:</p>
+            <h3 class="editable">ACADEMIC LITERATURE RELATING TO GAMALON PLATFORM</h3>
+            <p class="editable">We have noticed the emergence of several core architectural principles or axioms that seem necessary for machine learning systems to progress:</p>
             <h4>Models are Programs, and Programs are Transmitters</h4>
-            <p>Gamalon was originally funded by one of the largest investments by DARPA and the US Federal Government in next generation machine learning, the <a href="https://www.darpa.mil/program/probabilistic-programming-for-advancing-machine-learning">DARPA Probabilistic Programming for Advancing Machine Learning (PPAML)</a>              Program. Probabilistic programming in the minds of most machine learning researchers and in the press is usually described as &#8220;you write a model as a program&#8221; and then &#8220;you solve it using single site Metropolis-Hastings
+            <p class="editable">Gamalon was originally funded by one of the largest investments by DARPA and the US Federal Government in next generation machine learning, the <a href="https://www.darpa.mil/program/probabilistic-programming-for-advancing-machine-learning">DARPA Probabilistic Programming for Advancing Machine Learning (PPAML)</a>              Program. Probabilistic programming in the minds of most machine learning researchers and in the press is usually described as &#8220;you write a model as a program&#8221; and then &#8220;you solve it using single site Metropolis-Hastings
               MCMC.&#8221; Many leaders in the machine learning and deep learning community now embrace the tenet that <strong>models should be programs.  </strong>This is a beautiful and important idea. The no-free lunch theorem, however, teaches us
               to reject the notion of a one-size-fits-all solver for all models which means we apply solvers ranging from and combining elements of automatic differentiation with stochastic gradient descent, Markov Chain Monte Carlo techniques, variational
               methods, and evolutionary techniques. <span class="s1">Here are some of our favorite publications that explain how a model should be a program:</span></p>
-            <p><a href="https://www.facebook.com/yann.lecun/posts/10155003011462143">Deep Learning est mort. Vive Differentiable Programming! Yan Lecun.</a></p>
-            <p><a href="http://dippl.org/">The Design and Implementation of Probabilistic Programming Languages, Noah D. Goodman and Andreas Stuhlmüller.</a></p>
-            <p><a href="http://forestdb.org/">A repository for generative models. Andreas Stuhlmüller.</a></p>
-            <p><a href="http://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf">Human-level concept learning through probabilistic program induction, Brenden M. Lake, Ruslan Salakhutdinov, Joshua B. Tenenbaum.</a></p>
-            <p><a href="https://cocolab.stanford.edu/papers/GoodmanEtAl2008-UncertaintyInArtificialIntelligence.pdf">Church: a language for generative models.  Noah D. Goodman, Vikash K. Mansinghka, Daniel M. Roy, Keith Bonawitz &amp; Joshua B. Tenenbaum.</a></p>
-            <p>A machine learning system can be usefully viewed as a receiver. It receives a signal and it must solve an <a href="https://en.wikipedia.org/wiki/Inverse_problem">inverse problem</a> in order to infer the &#8220;hidden&#8221; state of a &#8220;transmitter&#8221;
+            <p class="editable"><a href="https://www.facebook.com/yann.lecun/posts/10155003011462143">Deep Learning est mort. Vive Differentiable Programming! Yan Lecun.</a></p>
+            <p class="editable"><a href="http://dippl.org/">The Design and Implementation of Probabilistic Programming Languages, Noah D. Goodman and Andreas Stuhlmüller.</a></p>
+            <p class="editable"><a href="http://forestdb.org/">A repository for generative models. Andreas Stuhlmüller.</a></p>
+            <p class="editable"><a href="http://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf">Human-level concept learning through probabilistic program induction, Brenden M. Lake, Ruslan Salakhutdinov, Joshua B. Tenenbaum.</a></p>
+            <p class="editable"><a href="https://cocolab.stanford.edu/papers/GoodmanEtAl2008-UncertaintyInArtificialIntelligence.pdf">Church: a language for generative models.  Noah D. Goodman, Vikash K. Mansinghka, Daniel M. Roy, Keith Bonawitz &amp; Joshua B. Tenenbaum.</a></p>
+            <p class="editable">A machine learning system can be usefully viewed as a receiver. It receives a signal and it must solve an <a href="https://en.wikipedia.org/wiki/Inverse_problem">inverse problem</a> in order to infer the &#8220;hidden&#8221; state of a &#8220;transmitter&#8221;
               &#8211; the system that generated the data that we observe. <strong>The receiver contains a model of the transmitter which is called a &#8220;generative model.&#8221; </strong> The more accurate and detailed this model is (whether via training
               or by design), the better the receiver works. Over the past 75 years, the fields of information theory and communications theory has developed a very rich set of mathematical tools within this framework, and our cell phones and flash memories
               would not work without it. Read these:</p>
-            <p><a href="https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1528174317&amp;sr=1-1&amp;keywords=mackay">Information Theory, Inference and Learning Algorithms. David J. C. MacKay.</a></p>
-            <p><a href="https://www.amazon.com/Iterative-Receiver-Design-Henk-Wymeersch/dp/0521873150">Iterative Receiver Design. Henk Wymeersch.</a></p>
+            <p class="editable"><a href="https://www.amazon.com/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1528174317&amp;sr=1-1&amp;keywords=mackay">Information Theory, Inference and Learning Algorithms. David J. C. MacKay.</a></p>
+            <p class="editable"><a href="https://www.amazon.com/Iterative-Receiver-Design-Henk-Wymeersch/dp/0521873150">Iterative Receiver Design. Henk Wymeersch.</a></p>
             <h4>Variables must carry Uncertainty</h4>
-            <p>Uncertainty is always present when solving complex inverse problems, because there almost always many possible answers and you usually do not know for sure if you have the right one. Although alternative formulations of uncertainty exist (such
+            <p class="editable">Uncertainty is always present when solving complex inverse problems, because there almost always many possible answers and you usually do not know for sure if you have the right one. Although alternative formulations of uncertainty exist (such
               as <a href="https://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory">Dempster Shafer theory),</a> we happen to think that probability theory is pretty cool. Read these:</p>
-            <p><a href="http://bayes.wustl.edu/etj/prob/book.pdf">Probability Theory, The Logic of Science.  E.T. Jaynes.</a></p>
-            <p><a href="http://qwone.com/~jason/trg/papers/yedidia-belief-01.pdf">Understanding Belief Propagation and its Generalizations. Jonathan S. Yedidia, William T. Freeman, Yair Weiss.</a></p>
-            <p><a href="https://people.kth.se/~tjtkoski/factorgraphs.pdf">An Introduction to Factor Graphs.  Hans-Andrea Loeliger.</a></p>
-            <p><a href="http://bayes.cs.ucla.edu/home.htm">Everything written by Judea Pearl.</a></p>
+            <p class="editable"><a href="http://bayes.wustl.edu/etj/prob/book.pdf">Probability Theory, The Logic of Science.  E.T. Jaynes.</a></p>
+            <p class="editable"><a href="http://qwone.com/~jason/trg/papers/yedidia-belief-01.pdf">Understanding Belief Propagation and its Generalizations. Jonathan S. Yedidia, William T. Freeman, Yair Weiss.</a></p>
+            <p class="editable"><a href="https://people.kth.se/~tjtkoski/factorgraphs.pdf">An Introduction to Factor Graphs.  Hans-Andrea Loeliger.</a></p>
+            <p class="editable"><a href="http://bayes.cs.ucla.edu/home.htm">Everything written by Judea Pearl.</a></p>
             <h4>Users Interact with &#8220;Hidden Layers&#8221; in a Model</h4>
-            <p>We do not force users to program every time they would like to interact with a computer. Computer science added user interfaces to programs, so that users can readily influence the control flow of a conventional program while it is running.
+            <p class="editable">We do not force users to program every time they would like to interact with a computer. Computer science added user interfaces to programs, so that users can readily influence the control flow of a conventional program while it is running.
               Gamalon has pioneered the invention of user interfaces for interaction directly with the &#8220;hidden&#8221; or &#8220;latent&#8221; variables in machine learning models while inference/learning is running. We have not had a chance to write
               about this for a scientific publication yet (we have been a little busy lately building products), but our patents are beginning to publish:</p>
-            <p><a href="https://patents.google.com/?assignee=gamalon&amp;oq=gamalon">Patents by Gamalon.</a></p>
+            <p class="editable"><a href="https://patents.google.com/?assignee=gamalon&amp;oq=gamalon">Patents by Gamalon.</a></p>
             <h4>Axiom #4</h4>
-            <p>We see at least one more core architectural principle necessary for progress in machine learning and artificial intelligence, which we hope to talk about more in future posts.</p>
+            <p class="editable">We see at least one more core architectural principle necessary for progress in machine learning and artificial intelligence, which we hope to talk about more in future posts.</p>
             <hr />
             <div class="extra-content-js" style="display: none;">
             </div>
           </div>
           <div class="technology-item post--extra-content">
-            <h3>WHEN MACHINES HAVE IDEAS</h3>
-            <p>Ben Vigoda, Gamalon’s CEO, spoke recently at MIT Technology Review EmTech along with <a href="http://events.technologyreview.com/video/watch/pedro-domingos-university-of-washington-building-machines">Pedro Domingos</a> from University of Washington,
+            <h3 class="editable">WHEN MACHINES HAVE IDEAS</h3>
+            <p class="editable">Ben Vigoda, Gamalon’s CEO, spoke recently at MIT Technology Review EmTech along with <a href="http://events.technologyreview.com/video/watch/pedro-domingos-university-of-washington-building-machines">Pedro Domingos</a> from University of Washington,
               <a href="http://events.technologyreview.com/video/watch/noah-goodman-stanford-university-abstract-uncertain-social-intelligence">Noah Goodman</a> from Stanford, <a href="http://events.technologyreview.com/video/watch/ruslan-salakhutdinov-cmu-apple-limitations-of-machine-learning">Ruslan Salakhutdinov</a>              from Apple/CMU, <a href="http://events.technologyreview.com/video/watch/Ilya-sutskever-openai-evolution-strategies-reinforcement-learning/">Ilya Sutskever</a> from OpenAI, <a href="http://events.technologyreview.com/video/watch/maya-gupta-google-ethics-fairness/">Maya Gupta</a>              from Google, and <a href="http://events.technologyreview.com/video/watch/eric-horvitz-microsoft-research-ai-directions-challenges-futures/">Eric Horvitz</a> from Microsoft.</p>
-            <p>He describes how deep learning and other state-of-the art machine learning is like training a dog to provide a desired response to a stimulus &#8211; ‘ring the bell, give some food’ , ‘ring the bell, give some food’, and so forth, except that
+            <p class="editable">He describes how deep learning and other state-of-the art machine learning is like training a dog to provide a desired response to a stimulus &#8211; ‘ring the bell, give some food’ , ‘ring the bell, give some food’, and so forth, except that
               with today’s machine learning you typically need to repeat this kind of labeled input/output pair 10,000 times.</p>
-            <p>By contrast, to teach a human we would just say, ‘This is a dinner bell, when I ring it I am going to serve you some food’ &#8211; you would insert that idea directly into their mind in between where the stimulus comes in and the response
+            <p class="editable">By contrast, to teach a human we would just say, ‘This is a dinner bell, when I ring it I am going to serve you some food’ &#8211; you would insert that idea directly into their mind in between where the stimulus comes in and the response
               goes out &#8211; by talking to them. The person can still learn from stimulus-response experiences, but you can also teach them by communicating ideas to them. This is how Gamalon’s Idea Learning works.</p>
-            <p><iframe src="//player.ooyala.com/static/v4/stable/4.10.6/skin-plugin/iframe.html?ec=FseDBrYTE6RmP2lLpbYmZUfG7AJPNuqK&amp;pbid=9935c14646034dc285185d1bbb784519&amp;pcode=FvbGkyOtJVFD33j_Rd0xPLSo0Jiv" width="640" height="360" frameborder="0"
+            <p class="editable"><iframe src="//player.ooyala.com/static/v4/stable/4.10.6/skin-plugin/iframe.html?ec=FseDBrYTE6RmP2lLpbYmZUfG7AJPNuqK&amp;pbid=9935c14646034dc285185d1bbb784519&amp;pcode=FvbGkyOtJVFD33j_Rd0xPLSo0Jiv" width="640" height="360" frameborder="0"
                 allowfullscreen="allowfullscreen"></iframe></p>
             <div class="extra-content-js" style="display: none;">
             </div>
           </div>
           <div class="technology-item post--extra-content">
-            <h3>RECOGNIZING DRAWINGS: DEEP LEARNING VERSUS IDEA LEARNING</h3>
-            <p><span style="font-weight: 400;">In this video, we compare Gamalon&#8217;s new Idea Learning technology versus state-of-the-art deep learning while playing Pictionary: we draw something, and the system must guess what we drew.</span></p>
-            <p>We show that the Gamalon Idea Learning system learns from only a few examples, not millions. It can learn using a tablet processor, not hundreds of servers. It learns right away while we play with it, not over weeks or months. And it learns
+            <h3 class="editable">RECOGNIZING DRAWINGS: DEEP LEARNING VERSUS IDEA LEARNING</h3>
+            <p class="editable"><span style="font-weight: 400;">In this video, we compare Gamalon&#8217;s new Idea Learning technology versus state-of-the-art deep learning while playing Pictionary: we draw something, and the system must guess what we drew.</span></p>
+            <p class="editable">We show that the Gamalon Idea Learning system learns from only a few examples, not millions. It can learn using a tablet processor, not hundreds of servers. It learns right away while we play with it, not over weeks or months. And it learns
               from just one person, not from thousands. Someday soon you might even have your own private machine intelligence running on your mobile device!</p>
-            <p>
+            <p class="editable">
               <center><br />
                 <iframe src="https://player.vimeo.com/video/203852929?color=db295e&amp;title=0&amp;byline=0&amp;portrait=0" width="639" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center><br />
               <a href="https://gamalon.com/?technology=drawing-recognition#more-217" class="more-link">Read more</a></p>
             <div class="extra-content-js" style="display: none;">
-              <p>You have pictures in your imagination, but it is difficult to show your imagination to other people. We imagined this app during one of our Gamalon company hackathons, to make it easier to show other people what you <em>meant</em> to draw,
+              <p class="editable">You have pictures in your imagination, but it is difficult to show your imagination to other people. We imagined this app during one of our Gamalon company hackathons, to make it easier to show other people what you <em>meant</em> to draw,
                 instead of what you did draw.</p>
-              <p>A collaborative drawing system of this kind would quickly learn from all of the people using it, and rapidly become surprisingly helpful. It could offer autocomplete suggestions for your sketches, help fill in details or surrounding context,
+              <p class="editable">A collaborative drawing system of this kind would quickly learn from all of the people using it, and rapidly become surprisingly helpful. It could offer autocomplete suggestions for your sketches, help fill in details or surrounding context,
                 or clean up and enhance your drawings. If you are designing a building or a machine, it could do a hierarchical 3-D parts search and find similar parts to fit your needs. If you are creating a business document, full featured bar charts
                 and pie charts could instantly pop into existence just by sketching them. With its knowledge of how parts work together, the system could even add the laws of physics to this sketching world, so that anything you draw instantly becomes
                 animated and interactive.</p>
-              <p>Unlike deep learning which learns by adjusting millions of numerical parameters, the Idea Learning system learns by (re)writing human-readable code, so we can examine and edit the new concepts that it learns. If one person taught the system
+              <p class="editable">Unlike deep learning which learns by adjusting millions of numerical parameters, the Idea Learning system learns by (re)writing human-readable code, so we can examine and edit the new concepts that it learns. If one person taught the system
                 something we don’t want it to know, we can simply remove the code that we don’t like.</p>
-              <p>Going beyond this drawing application, we are starting to teach the system to read, first by building up letters, then words, and then sentences. Language is a much more complex setting, but like with drawing, we expect that the system will
+              <p class="editable">Going beyond this drawing application, we are starting to teach the system to read, first by building up letters, then words, and then sentences. Language is a much more complex setting, but like with drawing, we expect that the system will
                 learn more and more complex concepts made out of simpler ones. Who knows where it can take us?</p>
-              <p><a href="#" class="extra-content-close-js">Close</a></p>
+              <p class="editable"><a href="#" class="extra-content-close-js">Close</a></p>
             </div>
           </div>
           <div class="technology-item post--extra-content">
-            <h3>TEDx BOSTON: WHEN MACHINES HAVE IDEAS</h3>
-            <p>Our CEO, Ben Vigoda, gave a talk at TEDx Boston 2016 called &#8220;When Machines Have Ideas&#8221; that describes why building &#8220;stories&#8221; (i.e. Bayesian generative models) into machine intelligence systems can be very powerful.</p>
-            <p>
+            <h3 class="editable">TEDx BOSTON: WHEN MACHINES HAVE IDEAS</h3>
+            <p class="editable">Our CEO, Ben Vigoda, gave a talk at TEDx Boston 2016 called &#8220;When Machines Have Ideas&#8221; that describes why building &#8220;stories&#8221; (i.e. Bayesian generative models) into machine intelligence systems can be very powerful.</p>
+            <p class="editable">
               <center><br />
                 <iframe src="https://www.youtube.com/embed/PCs3vsoMZfY?modestbranding=1&amp;theme=light&amp;color=white&amp;autohide=0&amp;showinfo=1&amp;wmode=transparent&amp;rel=0" width="560" height="315" frameborder="0"></iframe></center>
             </p>
@@ -94,9 +94,9 @@ layout: default
               </div>
           </div>
           <div class="technology-item post--extra-content">
-            <h3>TALKING MACHINES INTERVIEW WITH BEN VIGODA</h3>
-            <p>Listen to Katherine Gorman interview our CEO, Ben Vigoda, on <a href="http://www.thetalkingmachines.com/blog/2015/11/22/open-source-releases-and-the-end-of-season-one">Talking Machines</a>.</p>
-            <p><iframe style="border: 1px solid #3e3e3e; padding:1px" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/234245919&amp;
+            <h3 class="editable">TALKING MACHINES INTERVIEW WITH BEN VIGODA</h3>
+            <p class="editable">Listen to Katherine Gorman interview our CEO, Ben Vigoda, on <a href="http://www.thetalkingmachines.com/blog/2015/11/22/open-source-releases-and-the-end-of-season-one">Talking Machines</a>.</p>
+            <p class="editable"><iframe style="border: 1px solid #3e3e3e; padding:1px" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/234245919&amp;
 color=4c5760&amp;
 auto_play=false&amp;
 font='Roboto'&amp;
